@@ -11,12 +11,12 @@ def lab_02_04():
 
 def lab_02_05():
     name = input("Enter name - ")
-    secondName = input("Enter second name - ")
+    second_name = input("Enter second name - ")
     age = input("Enter age - ")
-    print(f"Name type: {type(name)}; Second name type: {type(secondName)}; Age type: {type(age)}")
+    print(f"Name type: {type(name)}; Second name type: {type(second_name)}; Age type: {type(age)}")
     age = int(age)
     height = float(input("Enter height(with '.') - "))
-    print(f"Name and type: {name}, {type(name)}; Second name and type: {secondName}, {type(secondName)}; Age and type: {age}, {type(age)}; Height and type: {height}, {type(height)}")
+    print(f"Name and type: {name}, {type(name)}; Second name and type: {second_name}, {type(second_name)}; Age and type: {age}, {type(age)}; Height and type: {height}, {type(height)}")
 
 def lab_02_06():
     a = int(15)
@@ -76,4 +76,15 @@ def lab_02_12():
         print("Number is even")
     else:
         print("Number is odd")
+
+def lab_02_13():
+    import random
+    for i in range(5):
+        age = random.randint(17,22)
+        has_access = bool(random.getrandbits(1))
+        if age >=18 and has_access == True:
+            print(f"Age: {age}\nAccess: {has_access}\nAccess granted")
+        else:
+            print(f"Age: {age}\nAccess: {has_access}\nAccess denied")
+
 
