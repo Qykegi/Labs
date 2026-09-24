@@ -31,13 +31,13 @@ def lab_02_07():
 
 def lab_02_08():
     print("from 1 to 10")
-    for i in range(1,11,1):
+    for i in range(1, 11, 1):
         print(i)
     print("from 10 to 1")
-    for j in range(10,0,-1):
+    for j in range(10, 0, -1):
         print(j)
     print("Even number form 0 to 20")
-    for e in range(0,21,2):
+    for e in range(0, 21, 2):
         print(e)
 
 def lab_02_09():
@@ -49,15 +49,15 @@ def lab_02_09():
 
 def lab_02_10():
     count  = 10
-    while count>=1:
+    while count >= 1:
         print(count)
-        count-=1
+        count -= 1
     print("The cycle is complete")
 
 def lab_02_11():
     import math
     import random
-    radius = random.randint(1,10)
+    radius = random.randint(1, 10)
     L = 2 * math.pi * radius
     S = math.pi * radius ** 2 
     print(f"Radius = {radius}\nL = {L}, S = {S}")
@@ -72,7 +72,7 @@ def lab_02_12():
         print("Number is negative")
     else:
         print("Number equals 0")
-    if x%2==0:
+    if x % 2 == 0:
         print("Number is even")
     else:
         print("Number is odd")
@@ -82,9 +82,19 @@ def lab_02_13():
     for i in range(5):
         age = random.randint(17,22)
         has_access = bool(random.getrandbits(1))
-        if age >=18 and has_access == True:
+        if age >= 18 and has_access == True:
             print(f"Age: {age}\nAccess: {has_access}\nAccess granted")
         else:
             print(f"Age: {age}\nAccess: {has_access}\nAccess denied")
 
+def lab_02_14():
+    n = int(input("Enter n - "))
+    sum = 0
+    numbers = []
+    for i in range(n):
+        x = float(input("Enter number - "))
+        numbers.append(x)
+        sum += x
+    print(f"Sum - {sum}\navg - {sum / n}")
+    print(f"Numbers - {numbers}")
 
