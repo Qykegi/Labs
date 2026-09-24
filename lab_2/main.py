@@ -54,3 +54,14 @@ def lab_02_10():
         count-=1
     print("The cycle is complete")
 
+def lab_02_11():
+    import math
+    import random
+    radius = random.randint(1,10)
+    L = 2 * math.pi * radius
+    S = math.pi * radius ** 2 
+    print(f"Radius = {radius}\nL = {L}, S = {S}")
+    i = random.randint(0,50)
+    print(f"√{i} = {math.sqrt(i)}")
+
+lab_02_11()
