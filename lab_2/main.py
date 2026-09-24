@@ -2,7 +2,7 @@ def lab_02_03():
     print("Hello, World!")
 
 def lab_02_04():
-    name= 'Denis'
+    name = 'Denis'
     age = 21
     height = 180.0
     is_student = True
@@ -40,3 +40,9 @@ def lab_02_08():
     for e in range(0,21,2):
         print(e)
 
+def lab_02_09():
+    n = int(input("Enter n(n>0 and integer) - "))
+    summ = 0
+    for i in range(1,n+1):
+        summ += i
+    print(summ)
