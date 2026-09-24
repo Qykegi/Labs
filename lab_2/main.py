@@ -23,3 +23,8 @@ def lab_02_06():
     b = int(4)
     print(f"a + b = {a + b};\na - b = {a - b};\na * b: {a * b};\na / b =  {a / b};\na // b = {a // b};\na % b = {a % b};\na ** b = {a ** b}.")
     print(f"2 + 3 * 4 = {2 + 3 * 4}, (2 + 3) * 4 = {(2 + 3) * 4}")
+
+def lab_02_07():
+    x = float(input("Enter x (float with '.') - "))
+    y = float(input("Enter y (float with '.') - "))
+    print(f" x + y = {x + y}\n x - y = {x - y}\n x * y = {x * y}\n x / y = {x / y}")
