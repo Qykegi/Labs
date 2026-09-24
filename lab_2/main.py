@@ -28,3 +28,15 @@ def lab_02_07():
     x = float(input("Enter x (float with '.') - "))
     y = float(input("Enter y (float with '.') - "))
     print(f" x + y = {x + y}\n x - y = {x - y}\n x * y = {x * y}\n x / y = {x / y}")
+
+def lab_02_08():
+    print("from 1 to 10")
+    for i in range(1,11,1):
+        print(i)
+    print("from 10 to 1")
+    for j in range(10,0,-1):
+        print(j)
+    print("Even number form 0 to 20")
+    for e in range(0,21,2):
+        print(e)
+
