@@ -46,3 +46,11 @@ def lab_02_09():
     for i in range(1,n+1):
         summ += i
     print(summ)
+
+def lab_02_10():
+    count  = 10
+    while count>=1:
+        print(count)
+        count-=1
+    print("The cycle is complete")
+
