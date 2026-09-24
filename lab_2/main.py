@@ -64,4 +64,16 @@ def lab_02_11():
     i = random.randint(0,50)
     print(f"√{i} = {math.sqrt(i)}")
 
-lab_02_11()
+def lab_02_12():
+    x = int(input("Enter integer - "))
+    if x > 0:
+        print("Number is positive")
+    elif x < 0:
+        print("Number is negative")
+    else:
+        print("Number equals 0")
+    if x%2==0:
+        print("Number is even")
+    else:
+        print("Number is odd")
+
